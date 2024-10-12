@@ -1,0 +1,53 @@
+public class Main {
+    public static void main(String[] args) {
+        // zad1
+        System.out.println("Damian Wilk");
+
+        // zad2
+        String in = "Damian Wilk";
+        int Iloscliter=in.length();
+        System.out.println("Długość imienia i nazwiska to: " + Iloscliter);
+
+        // zad3
+        String slowo1 = "Ala";
+        String slowo2 = "ma";
+        String slowo3 = "kota";
+        String zdanie = slowo1 + " " + slowo2 + " " +slowo3;
+        System.out.printf(zdanie);
+
+        //zad4
+        System.out.println("                    *");
+        System.out.println("                    * *");
+        System.out.println("                    * * *");
+        System.out.println("* * * * * * * * * * * * * * ");
+        System.out.println("* * * * * * * * * * * * * * * ");
+        System.out.println("* * * * * * * * * * * * * * ");
+        System.out.println("                    * * *");
+        System.out.println("                    * *");
+        System.out.println("                    *");
+        System.out.println(" ");
+        System.out.println("     * ");
+        System.out.println("    * *");
+        System.out.println("   * * *");
+        System.out.println("  * * * *");
+        System.out.println(" * * * * *");
+        System.out.println("* * * * * *");
+        System.out.println(" * * * * *");
+        System.out.println("  * * * *");
+        System.out.println("   * * *");
+        System.out.println("    * *");
+        System.out.println("     * ");
+
+        //zad5
+        String zdanie2 = "Ala ma kota";
+        String zamiana_a_na_e = zdanie2.replace('a', 'e');
+        System.out.println(zamiana_a_na_e);
+
+        //zad6
+        String zdanie3 = "Ala ma kota";
+        System.out.println(zdanie3);
+        System.out.println(zdanie3.toUpperCase());
+        System.out.println(zdanie3.toLowerCase());
+
+    }
+}
