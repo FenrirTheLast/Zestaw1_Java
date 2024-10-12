@@ -59,3 +59,24 @@ public class Main {
         System.out.println(String.valueOf((int) '\n'));
         System.out.println(String.valueOf((int) '\b'));
 
+        //zad8
+        System.out.println("Zakres dla małych liter (a-z): " + (int) 'a' + " - " + (int) 'z');
+        System.out.println("Zakres dla dużych liter (A-Z): " + (int) 'A' + " - " + (int) 'Z');
+        System.out.println("Zakres dla cyfr (0-9): " + (int) '0' + " - " + (int) '9');
+
+        //zad9
+        String zdanie4 = "Grzesiek nie wiedział dlaczego %s jest tak drapieżnym %s, mimo ze jego %s na to nie wskazuje.";
+        String slowo4 = "wilk";
+        String slowo5 = "zwierzęciem";
+        String slowo6 = "zachowanie";
+        String zdanie_z_formatem = String.format(zdanie4,slowo4, slowo5, slowo6);
+        System.out.println(zdanie_z_formatem);
+
+        //zad10
+        String zdanie5 = "%s to najlepsza książka napisana przez %s ";
+        String tytul = "IT";
+        String autor = "Stephen King";
+        String zdanie_z_formatem_2 = String.format(tytul,autor);
+        System.out.println(zdanie_z_formatem_2);
+
+        //zad11
