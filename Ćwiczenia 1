@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         // zad1
@@ -49,5 +50,12 @@ public class Main {
         System.out.println(zdanie3.toUpperCase());
         System.out.println(zdanie3.toLowerCase());
 
-    }
-}
+        //zad7
+        System.out.println(String.valueOf((int) 'A'));
+        System.out.println(String.valueOf((int) '!'));
+        System.out.println(String.valueOf((int) '@'));
+        System.out.println(String.valueOf((int) '>'));
+        System.out.println(String.valueOf((int) '~'));
+        System.out.println(String.valueOf((int) '\n'));
+        System.out.println(String.valueOf((int) '\b'));
+
