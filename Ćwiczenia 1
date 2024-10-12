@@ -76,7 +76,7 @@ public class Main {
         String zdanie5 = "%s to najlepsza książka napisana przez %s ";
         String tytul = "IT";
         String autor = "Stephen King";
-        String zdanie_z_formatem_2 = String.format(tytul,autor);
+        String zdanie_z_formatem_2 = String.format(zdanie5,tytul,autor);
         System.out.println(zdanie_z_formatem_2);
 
         //zad11
